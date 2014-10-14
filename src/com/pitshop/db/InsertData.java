@@ -45,7 +45,6 @@ public class InsertData {
             System.out.println("-- Adding to Customer Table --");
             statement.executeUpdate("INSERT INTO customer (name, address, phone_number) VALUES ('bryan yu', 'malabon', '4476561')");
             statement.executeUpdate("INSERT INTO customer (name, address, phone_number) VALUES ('david ang', 'quezon city', '7166547')");
-            statement.executeUpdate("INSERT INTO customer (name, address, phone_number) VALUES ('pacita abenojar', 'manila', '3099585')");
 
             System.out.println("-- Adding to Category Table --");
             statement.executeQuery("INSERT INTO category (name) VALUES ('wheel')");
